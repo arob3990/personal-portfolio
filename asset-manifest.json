@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.1f68876e.css",
+    "main.js": "/personal-portfolio/static/js/main.ea258837.js",
+    "static/media/maze.jpg": "/personal-portfolio/static/media/maze.13c29094b0e8cdaf5a5f.jpg",
+    "static/media/api.jpg": "/personal-portfolio/static/media/api.002c77bba64a4fbe25a4.jpg",
+    "static/media/seattle-skyline.jpg": "/personal-portfolio/static/media/seattle-skyline.7b812f0356acab9930ee.jpg",
+    "static/media/rugby.jpg": "/personal-portfolio/static/media/rugby.b65575a6b634c5570e01.jpg",
+    "static/media/notes.jpg": "/personal-portfolio/static/media/notes.c1486dbf29cd5e7633e9.jpg",
+    "static/media/calendar.jpg": "/personal-portfolio/static/media/calendar.10ebd86473fe73ca74b1.jpg",
+    "static/media/Alex_Robertson_Resume.pdf": "/personal-portfolio/static/media/Alex_Robertson_Resume.208b2c1f6e3ee6470f7f.pdf",
+    "static/media/cmd.jpg": "/personal-portfolio/static/media/cmd.ed0096fd99cb04d179f7.jpg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.1f68876e.css.map": "/personal-portfolio/static/css/main.1f68876e.css.map",
+    "main.ea258837.js.map": "/personal-portfolio/static/js/main.ea258837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f68876e.css",
+    "static/js/main.ea258837.js"
+  ]
+}
