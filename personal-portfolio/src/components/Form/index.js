@@ -115,9 +115,9 @@ function ContactForm() {
         </InputGroup>
         <Button type='submit' onClick={handleFormSubmit}>Submit</Button>
         {showError && <>
-            <p>{contactNameError}</p>
-            <p>{emailError}</p>
-            <p>{contactMessageError}</p>
+            <p className="error-alert">{contactNameError}</p>
+            <p className="error-alert">{emailError}</p>
+            <p className="error-alert">{contactMessageError}</p>
         </>}
       </Form>
   );

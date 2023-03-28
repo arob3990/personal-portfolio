@@ -1,5 +1,5 @@
 /* Default CSS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
 
 * {
   margin: 0;
@@ -100,10 +100,13 @@ nav ul li {
 /**/
 
 .img.homepage-img {
-  position: fixed;
+  display:'flex';
+  align-items: center;
+  justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  
 }
 
 .header-wrapper {
@@ -140,6 +143,45 @@ p.card-text {
   font-size: smaller;
   display: flex;
   flex-wrap:wrap;
+}
+
+.card-img-top {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  /* max-width: 250px; */
+}
+
+
+
+.portfolio-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.portfolio-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  width: 320px;
+  height: auto;
+}
+
+.portfolio-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.portfolio-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
 /**FOOTER**/
@@ -189,4 +231,11 @@ p.card-text {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+p.error-alert {
+  color: rgb(137, 54, 54) !important;
+  font-weight: bolder !important;
+  font-size: large !important;
+  
 }

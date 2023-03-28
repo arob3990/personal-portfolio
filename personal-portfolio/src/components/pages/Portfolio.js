@@ -4,6 +4,9 @@ import PortfolioItem from '../PortfolioItems/index';
 import maze from '../../Assets/maze.jpg';
 import notes from '../../Assets/notes.jpg';
 import rugby from '../../Assets/rugby.jpg';
+import calendar from '../../Assets/calendar.jpg'
+import api from '../../Assets/api.jpg'
+import cmd from '../../Assets/cmd.jpg'
 
 
 export default function Portfolio() {
@@ -37,6 +40,30 @@ export default function Portfolio() {
               title='Team Profile Generatior'
               description='Command Line Application to Create a Team'
               ghLink='https://github.com/arob3990/Team-Profile-Generator'
+              />
+          </Col>
+          <Col md={4} className='portfolio-card'>
+            <PortfolioItem
+              imgPath={calendar}
+              title='Calendar Application'
+              description='Web based daily planner'
+              ghLink='https://github.com/arob3990/Calendar-Module-5'
+              />
+          </Col>
+          <Col md={4} className='portfolio-card'>
+            <PortfolioItem
+              imgPath={api}
+              title='Social Media Website API'
+              description='API for a social media website'
+              ghLink='https://github.com/arob3990/Social-Network-API'
+              />
+          </Col>
+          <Col md={4} className='portfolio-card'>
+            <PortfolioItem
+              imgPath={cmd}
+              title='ReadMe Generator'
+              description='Command Line Application to generate a .md file'
+              ghLink='https://github.com/arob3990/readme-generator'
               />
           </Col>
 
