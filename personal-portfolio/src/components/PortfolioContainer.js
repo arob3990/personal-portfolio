@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-   
+      <h1 className='headercomp'>Alex Robertson</h1>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
    
       {renderPage()}
